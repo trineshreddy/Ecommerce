@@ -21,6 +21,7 @@ const HomeScreen = ({ match }) => {
     const { loading, error, products, page, pages } = productList
 
     useEffect(() => {
+        const keyword = match.params.keyword
         dispatch(listProducts(keyword, pageNumber))
     }, [dispatch, keyword, pageNumber])
 
