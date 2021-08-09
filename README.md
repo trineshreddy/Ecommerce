@@ -1,2 +1,2 @@
 # Ecommerce
-Complete End to End Ecommerce site with MERN stack
+Complete End to End Ecommerce site with MERNSTACK
