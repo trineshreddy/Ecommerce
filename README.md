@@ -7,4 +7,4 @@
 
 2.Then run "npm run dev" command
 
-3.Server will start at localhost:3000
+3.Browse  to localhost:3000
