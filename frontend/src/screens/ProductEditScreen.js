@@ -53,7 +53,7 @@ const ProductEditScreen = ({ match, history }) => {
     }, [dispatch, history, productId, product, successUpdate])
 
     const uploadFileHandler = async (e) => {
-        //if multiple files it will be array but w ewant firts file or single file
+        //if multiple files it will be array but we upload single file
         const file = e.target.files[0]
         const formData = new FormData()
         formData.append('image', file)
